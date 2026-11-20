@@ -1,0 +1,77 @@
+=== tight 20:56:19
+server exited after 8 s
+
+wall 0.0 s
+19:strata: integrated GPU, one pool of memory with the system: 30.30 GiB of RAM available + 17.03 GiB the GPU driver holds from an earlier load, 30 GiB kept free for the system (STRATA_UMA_HEADROOM_GIB) -> 17.32 GiB for the model
+21:strata generate: expert cache 9970 slots, 16.14 GiB of VRAM; policy is
+22:strata generate: REFUSED: this model does not fit in the memory the integrated GPU shares with the system: 14606 of its experts (about 23.8 GiB) have no room. 31.0 GiB of RAM is available now and 30 GiB of it is kept free for the system (STRATA_UMA_HEADROOM_GIB). Close programs that hold RAM, lower --max-context, or take a smaller size of the model
+=== ple 20:56:37
+server exited after 4 s
+shard 2:
+7:strata generate: per_layer_token_embd.weight is not in <models>/Swift-Qwen3.8-Flash-Next-GSQ-RCO-IQ3_XXS-00002-of-00002.gguf
+server up in 19 s
+{"id": "chatcmpl-bde14518de714c62b92a933f", "object": "chat.completion", "created": 1795204630, "model": "qwen3.8-flash-next", "choices": [{"index": 0, "message": {"role": "assistant", "content": "The Danube, the Rhine, and the Volga."}, "finish_reason": "stop"}], "usage": {"prompt_tokens": 21, "completion_tokens": 14, "total_tokens": 35, "prompt_tokens_details": {"cached_tokens": 0}}, "timings": {"cache_n": 0, "prompt_n": 21, "prompt_ms": 558.0, "prompt_per_token_ms": 26.571, "prompt_per_second": 37.6, "predicted_n": 14, "predicted_ms": 628.1, "predicted_per_token_ms": 44.864, "predicted_per_second": 22.3, "draft_n": 7, "draft_n_accepted": 7}}
+wall 1.2 s
+shard 1:
+36:strata verify: captured the 6-token window (upload no error, sync no error)
+37:strata verify: captured the 2-token window (upload no error, sync no error)
+38:strata verify: captured the 1-token window (upload no error, sync no error)
+=== reader 20:57:23
+server up in 26 s
+'2847' 5.2 s
+main:
+7:[strata] filling the GPU's expert cache (24502 experts, 39.84 GiB of VRAM) ...
+9:[strata] images: the image encoder starts with the first picture and stops after 300 s without one
+12:[strata] images: the expert cache did not make room for the image encoder (VRAM needs an engine started with --vram-elastic (one NVIDIA GPU, --serve)); starting it anyway
+13:[strata] images: the image encoder started in 1.0 s, 838 MiB of VRAM
+server up in 18 s
+'2847' 5.0 s
+serve-cpu-reader:
+7:[strata] filling the GPU's expert cache (24576 experts, 39.97 GiB of VRAM) ...
+9:[strata] images: the image encoder starts with the first picture and stops after 300 s without one
+12:[strata] images: the image encoder started in 0.8 s, on the CPU
+=== monitor 20:58:43
+## no engine
+--- main 3142b66b9
+reader _Intel integrated None
+read {'util': None, 'mem_used': 5787013120, 'mem_total': 33546178560, 'temp': None, 'power': None, 'power_limit': None, 'pcie_gen': None, 'pcie_gen_max': None, 'pcie_width': None, 'pcie_rx_mb': None, 'pcie_tx_mb': None}
+read {'util': 0.0, 'mem_used': 5789233152, 'mem_total': 33546080256, 'temp': None, 'power': None, 'power_limit': None, 'pcie_gen': None, 'pcie_gen_max': None, 'pcie_width': None, 'pcie_rx_mb': None, 'pcie_tx_mb': None}
+free_vram_mib 26470
+MemTotal:       65263276 kB
+MemFree:        27106296 kB
+MemAvailable:   32759844 kB
+GPUActive:        286084 kB
+GPUReclaim:     26014392 kB
+--- serve-igpu-memory a27c35e3d
+reader _Intel integrated True
+read {'util': None, 'mem_used': 196009984, 'mem_total': 66829594624, 'temp': None, 'power': None, 'power_limit': None, 'pcie_gen': None, 'pcie_gen_max': None, 'pcie_width': None, 'pcie_rx_mb': None, 'pcie_tx_mb': None}
+read {'util': 0.0, 'mem_used': 196009984, 'mem_total': 66829594624, 'temp': None, 'power': None, 'power_limit': None, 'pcie_gen': None, 'pcie_gen_max': None, 'pcie_width': None, 'pcie_rx_mb': None, 'pcie_tx_mb': None}
+free_vram_mib 57382
+MemTotal:       65263276 kB
+MemFree:        27090908 kB
+MemAvailable:   32745124 kB
+GPUActive:        286100 kB
+GPUReclaim:     26014392 kB
+server up in 20 s
+## engine loaded (onepool build)
+--- main 3142b66b9
+reader _Intel integrated None
+read {'util': None, 'mem_used': 6239858688, 'mem_total': 7007883264, 'temp': None, 'power': None, 'power_limit': None, 'pcie_gen': None, 'pcie_gen_max': None, 'pcie_width': None, 'pcie_rx_mb': None, 'pcie_tx_mb': None}
+read {'util': 0.0, 'mem_used': 6240808960, 'mem_total': 7016669184, 'temp': None, 'power': None, 'power_limit': None, 'pcie_gen': None, 'pcie_gen_max': None, 'pcie_width': None, 'pcie_rx_mb': None, 'pcie_tx_mb': None}
+free_vram_mib 739
+MemTotal:       65263276 kB
+MemFree:          758080 kB
+MemAvailable:    6855852 kB
+GPUActive:      50333008 kB
+GPUReclaim:          412 kB
+--- serve-igpu-memory a27c35e3d
+reader _Intel integrated True
+read {'util': None, 'mem_used': 51343220736, 'mem_total': 66829594624, 'temp': None, 'power': None, 'power_limit': None, 'pcie_gen': None, 'pcie_gen_max': None, 'pcie_width': None, 'pcie_rx_mb': None, 'pcie_tx_mb': None}
+read {'util': 0.0, 'mem_used': 51343220736, 'mem_total': 66829594624, 'temp': None, 'power': None, 'power_limit': None, 'pcie_gen': None, 'pcie_gen_max': None, 'pcie_width': None, 'pcie_rx_mb': None, 'pcie_tx_mb': None}
+free_vram_mib 6686
+MemTotal:       65263276 kB
+MemFree:          758036 kB
+MemAvailable:    6857032 kB
+GPUActive:      50333008 kB
+GPUReclaim:          412 kB
+=== done 20:59:22

@@ -1,0 +1,21 @@
+## no engine
+--- main 3142b66b9
+reader _Intel integrated None
+read {'util': None, 'mem_used': 5787013120, 'mem_total': 33546178560, 'temp': None, 'power': None, 'power_limit': None, 'pcie_gen': None, 'pcie_gen_max': None, 'pcie_width': None, 'pcie_rx_mb': None, 'pcie_tx_mb': None}
+read {'util': 0.0, 'mem_used': 5789233152, 'mem_total': 33546080256, 'temp': None, 'power': None, 'power_limit': None, 'pcie_gen': None, 'pcie_gen_max': None, 'pcie_width': None, 'pcie_rx_mb': None, 'pcie_tx_mb': None}
+free_vram_mib 26470
+MemTotal:       65263276 kB
+MemFree:        27106296 kB
+MemAvailable:   32759844 kB
+GPUActive:        286084 kB
+GPUReclaim:     26014392 kB
+--- serve-igpu-memory a27c35e3d
+reader _Intel integrated True
+read {'util': None, 'mem_used': 196009984, 'mem_total': 66829594624, 'temp': None, 'power': None, 'power_limit': None, 'pcie_gen': None, 'pcie_gen_max': None, 'pcie_width': None, 'pcie_rx_mb': None, 'pcie_tx_mb': None}
+read {'util': 0.0, 'mem_used': 196009984, 'mem_total': 66829594624, 'temp': None, 'power': None, 'power_limit': None, 'pcie_gen': None, 'pcie_gen_max': None, 'pcie_width': None, 'pcie_rx_mb': None, 'pcie_tx_mb': None}
+free_vram_mib 57382
+MemTotal:       65263276 kB
+MemFree:        27090908 kB
+MemAvailable:   32745124 kB
+GPUActive:        286100 kB
+GPUReclaim:     26014392 kB

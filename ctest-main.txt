@@ -1,0 +1,376 @@
+Test project <parity-build>
+      Start  1: gated_proposal_test
+ 1/95 Test  #1: gated_proposal_test .......................   Passed    0.03 sec
+      Start  2: window_jobs_test
+ 2/95 Test  #2: window_jobs_test ..........................   Passed    0.01 sec
+      Start  3: window_jobs_test_legacy
+ 3/95 Test  #3: window_jobs_test_legacy ...................   Passed    0.01 sec
+      Start  4: window_wait_test
+ 4/95 Test  #4: window_wait_test ..........................   Passed   10.18 sec
+      Start  5: window_wait_test_legacy
+ 5/95 Test  #5: window_wait_test_legacy ...................   Passed   14.68 sec
+      Start  6: runtime_files_test
+ 6/95 Test  #6: runtime_files_test ........................   Passed    0.02 sec
+      Start  7: spec_admission_default
+ 7/95 Test  #7: spec_admission_default ....................   Passed    0.03 sec
+      Start  8: spec_admission_pick
+ 8/95 Test  #8: spec_admission_pick .......................   Passed    0.01 sec
+      Start  9: spec_admission_top
+ 9/95 Test  #9: spec_admission_top ........................   Passed    0.01 sec
+      Start 10: spec_admission_exact_top_only
+10/95 Test #10: spec_admission_exact_top_only .............   Passed    0.01 sec
+      Start 11: native_arithmetic_parity
+11/95 Test #11: native_arithmetic_parity ..................   Passed    0.16 sec
+      Start 12: native_arithmetic_parity_avx
+12/95 Test #12: native_arithmetic_parity_avx ..............   Passed    0.42 sec
+      Start 13: native_arithmetic_parity_kq256
+13/95 Test #13: native_arithmetic_parity_kq256 ............   Passed    0.16 sec
+      Start 14: native_arithmetic_parity_mt1
+14/95 Test #14: native_arithmetic_parity_mt1 ..............   Passed    0.14 sec
+      Start 15: native_arithmetic_parity_no512
+15/95 Test #15: native_arithmetic_parity_no512 ............   Passed    0.16 sec
+      Start 16: native_arithmetic_parity_ggml
+16/95 Test #16: native_arithmetic_parity_ggml .............   Passed    0.16 sec
+      Start 17: native_arithmetic_parity_nvfp4_avx2
+17/95 Test #17: native_arithmetic_parity_nvfp4_avx2 .......   Passed    0.16 sec
+      Start 18: native_arithmetic_parity_nvfp4_ggml
+18/95 Test #18: native_arithmetic_parity_nvfp4_ggml .......   Passed    0.16 sec
+      Start 19: gemm_stride_parity
+19/95 Test #19: gemm_stride_parity ........................   Passed    0.35 sec
+      Start 20: dequant_s2_parity
+20/95 Test #20: dequant_s2_parity .........................   Passed    0.13 sec
+      Start 21: s2_gemv_parity
+21/95 Test #21: s2_gemv_parity ............................   Passed    0.07 sec
+      Start 22: shared_expert_parity
+22/95 Test #22: shared_expert_parity ......................   Passed    0.10 sec
+      Start 23: gr_parity
+23/95 Test #23: gr_parity .................................   Passed    0.19 sec
+      Start 24: gdn_parity
+24/95 Test #24: gdn_parity ................................   Passed    0.86 sec
+      Start 25: s2_gemv_q8_parity
+25/95 Test #25: s2_gemv_q8_parity .........................   Passed    0.07 sec
+      Start 26: sampler_parity
+26/95 Test #26: sampler_parity ............................   Passed    1.53 sec
+      Start 27: rope_parity
+27/95 Test #27: rope_parity ...............................   Passed    0.08 sec
+      Start 28: quantize_act_parity
+28/95 Test #28: quantize_act_parity .......................   Passed    0.11 sec
+      Start 29: router_top10_parity
+29/95 Test #29: router_top10_parity .......................   Passed    0.10 sec
+      Start 30: s_gemv_parity
+30/95 Test #30: s_gemv_parity .............................   Passed    0.08 sec
+      Start 31: elementwise_parity
+31/95 Test #31: elementwise_parity ........................   Passed    0.11 sec
+      Start 32: bf16_gemv_parity
+32/95 Test #32: bf16_gemv_parity ..........................   Passed    0.16 sec
+      Start 33: s_gemv_q8k_parity
+33/95 Test #33: s_gemv_q8k_parity .........................   Passed    0.08 sec
+      Start 34: qsa_parity
+34/95 Test #34: qsa_parity ................................   Passed    0.43 sec
+      Start 35: kv_q8_parity
+35/95 Test #35: kv_q8_parity ..............................   Passed    0.11 sec
+      Start 36: kv_stream_parity
+36/95 Test #36: kv_stream_parity ..........................   Passed    9.15 sec
+      Start 37: kv_q4_parity
+37/95 Test #37: kv_q4_parity ..............................   Passed    0.11 sec
+      Start 38: cvec_parity
+38/95 Test #38: cvec_parity ...............................   Passed    0.14 sec
+      Start 39: prefill_gdn_parity
+39/95 Test #39: prefill_gdn_parity ........................   Passed    0.76 sec
+      Start 40: ple_parity
+40/95 Test #40: ple_parity ................................***Failed    0.03 sec
+ple_parity: required PLE table is missing or incompatible: ../../Q2_0/Qwen3.8-Flash-Next-GSQ-RCO-Q2_0-00002-of-00002.gguf (cannot open ../../Q2_0/Qwen3.8-Flash-Next-GSQ-RCO-Q2_0-00002-of-00002.gguf)
+
+      Start 41: ple_reader_selftest
+41/95 Test #41: ple_reader_selftest .......................   Passed    5.90 sec
+      Start 42: iq_multi_parity
+42/95 Test #42: iq_multi_parity ...........................   Passed    1.10 sec
+      Start 43: s2_expert_grouped_parity
+43/95 Test #43: s2_expert_grouped_parity ..................   Passed    0.21 sec
+      Start 44: native_grouped_parity
+44/95 Test #44: native_grouped_parity .....................   Passed    8.51 sec
+      Start 45: verify_parity
+45/95 Test #45: verify_parity .............................***Failed    0.14 sec
+  argmax n 248320 rows 4 row 0: 196882 / 196882, p nan / 1
+  argmax n 248320 rows 4 row 1: 110062 / 110062, p nan / 1.0226295e+09
+  argmax n 248320 rows 4 row 3: 130908 / 130908, p nan / 3.46672973e+09
+  argmax n 248320 rows 8 row 4: 8076 / 8076, p nan / 0.5
+  argmax n 248320 rows 8 row 6: 9226 / 9226, p nan / 0.25
+argmax_rows, row_top_prob_split: MISMATCH
+verify_parity: FAIL
+
+      Start 46: native_multi_parity
+46/95 Test #46: native_multi_parity .......................   Passed    0.14 sec
+      Start 47: kv_steps_parity
+47/95 Test #47: kv_steps_parity ...........................   Passed    0.22 sec
+      Start 48: resident_plan_parity
+48/95 Test #48: resident_plan_parity ......................   Passed    0.11 sec
+      Start 49: gr_multi_parity
+49/95 Test #49: gr_multi_parity ...........................   Passed    0.16 sec
+      Start 50: conversation_snapshot_test
+50/95 Test #50: conversation_snapshot_test ................   Passed    0.30 sec
+      Start 51: qsa_prompt_attn_parity
+51/95 Test #51: qsa_prompt_attn_parity ....................   Passed    5.85 sec
+      Start 52: dflash2_head_test
+52/95 Test #52: dflash2_head_test .........................   Passed    0.25 sec
+      Start 53: dflash2_head_test_legacy
+53/95 Test #53: dflash2_head_test_legacy ..................   Passed    0.20 sec
+      Start 54: short_cache_test
+54/95 Test #54: short_cache_test ..........................   Passed    0.01 sec
+      Start 55: spin_bound_test
+55/95 Test #55: spin_bound_test ...........................   Passed    0.01 sec
+      Start 56: verify_env_test
+56/95 Test #56: verify_env_test ...........................   Passed    0.00 sec
+      Start 57: verify_refusal_test
+57/95 Test #57: verify_refusal_test .......................   Passed    0.20 sec
+      Start 58: prefill_release_test
+58/95 Test #58: prefill_release_test ......................   Passed    0.22 sec
+      Start 59: host_memory_zfs_test
+59/95 Test #59: host_memory_zfs_test ......................   Passed    0.13 sec
+      Start 60: sycl_router_fast
+60/95 Test #60: sycl_router_fast ..........................   Passed    0.67 sec
+      Start 61: sycl_payload_pairs
+61/95 Test #61: sycl_payload_pairs ........................   Passed    0.09 sec
+      Start 62: esimd_moe_parity
+62/95 Test #62: esimd_moe_parity ..........................   Passed   18.67 sec
+      Start 63: esimd_moe_mode_test
+63/95 Test #63: esimd_moe_mode_test .......................   Passed    0.01 sec
+      Start 64: pipeline_auto_test
+64/95 Test #64: pipeline_auto_test ........................   Passed    0.01 sec
+      Start 65: slot_history_test
+65/95 Test #65: slot_history_test .........................   Passed    0.01 sec
+      Start 66: native_expert_parity_new_iq1_m_q2_0
+66/95 Test #66: native_expert_parity_new_iq1_m_q2_0 .......   Passed    7.96 sec
+      Start 67: native_expert_parity_new_iq1_m_iq4_nl
+67/95 Test #67: native_expert_parity_new_iq1_m_iq4_nl .....***Failed    8.25 sec
+          iq4_nl AVX-2 multi-token down vs ggml down: rel 2.88e+33
+          iq4_nl down MISMATCH (rel 2.88e+33 > 1e-5)
+          down 3 tokens one thread: avx2 134 us (6.85 GB/s) vs ggml 133 us (6.90 GB/s)
+pair   0  iq1_m   /iq4_nl  blob  1638400  cpu rel 1.45e-02  gpu rel 1.27e-02  cpu-gpu 1.56e-02  ok
+native_expert_parity: 1 failures
+
+      Start 68: native_expert_parity_new_iq1_m_q5_0
+68/95 Test #68: native_expert_parity_new_iq1_m_q5_0 .......   Passed    7.89 sec
+      Start 69: native_expert_parity_new_iq1_m_q8_0
+69/95 Test #69: native_expert_parity_new_iq1_m_q8_0 .......   Passed    7.79 sec
+      Start 70: native_expert_parity_new_iq2_xxs_q2_0
+70/95 Test #70: native_expert_parity_new_iq2_xxs_q2_0 .....***Failed    1.47 sec
+          iq2_xxs avx2 gate rows vs ggml vec_dot: rel 1.52e+33
+          iq2_xxs avx2 gate rows MISMATCH (rel 1.52e+33 > 1e-5)
+          gate+up one token one thread: avx2 125 us (6.74 GB/s), ggml 161 us (5.26 GB/s)
+          gate+up 3 tokens one thread: avx2 178 us vs ggml 3 x 161 us
+          q2_0 AVX-2 down vs ggml down: rel 1.94e-04
+pair   0  iq2_xxs /q2_0    blob  1305600  cpu rel 1.46e-02  gpu rel 1.20e-02  cpu-gpu 1.55e-02  ok
+native_expert_parity: 1 failures
+
+      Start 71: native_expert_parity_new_iq2_xxs_iq4_nl
+71/95 Test #71: native_expert_parity_new_iq2_xxs_iq4_nl ...***Failed    1.72 sec
+          iq2_xxs avx2 gate rows vs ggml vec_dot: rel 1.52e+33
+          iq2_xxs avx2 gate rows MISMATCH (rel 1.52e+33 > 1e-5)
+          gate+up one token one thread: avx2 127 us (6.64 GB/s), ggml 159 us (5.30 GB/s)
+          gate+up 3 tokens one thread: avx2 178 us vs ggml 3 x 159 us
+          iq4_nl AVX-2 multi-token down vs ggml down: rel 2.08e+33
+          iq4_nl down MISMATCH (rel 2.08e+33 > 1e-5)
+          down 3 tokens one thread: avx2 133 us (6.93 GB/s) vs ggml 131 us (7.03 GB/s)
+pair   0  iq2_xxs /iq4_nl  blob  1766400  cpu rel 1.43e-02  gpu rel 1.18e-02  cpu-gpu 1.54e-02  ok
+native_expert_parity: 2 failures
+
+      Start 72: native_expert_parity_new_iq2_xxs_q5_0
+72/95 Test #72: native_expert_parity_new_iq2_xxs_q5_0 .....***Failed    1.47 sec
+          iq2_xxs avx2 gate rows vs ggml vec_dot: rel 1.52e+33
+          iq2_xxs avx2 gate rows MISMATCH (rel 1.52e+33 > 1e-5)
+          gate+up one token one thread: avx2 127 us (6.66 GB/s), ggml 160 us (5.29 GB/s)
+          gate+up 3 tokens one thread: avx2 181 us vs ggml 3 x 160 us
+pair   0  iq2_xxs /q5_0    blob  1971200  cpu rel 1.43e-02  gpu rel 1.18e-02  cpu-gpu 1.53e-02  ok
+native_expert_parity: 1 failures
+
+      Start 73: native_expert_parity_new_iq2_xxs_q8_0
+73/95 Test #73: native_expert_parity_new_iq2_xxs_q8_0 .....***Failed    1.47 sec
+          iq2_xxs avx2 gate rows vs ggml vec_dot: rel 1.52e+33
+          iq2_xxs avx2 gate rows MISMATCH (rel 1.52e+33 > 1e-5)
+          gate+up one token one thread: avx2 125 us (6.74 GB/s), ggml 152 us (5.57 GB/s)
+          gate+up 3 tokens one thread: avx2 177 us vs ggml 3 x 152 us
+pair   0  iq2_xxs /q8_0    blob  2585600  cpu rel 1.43e-02  gpu rel 1.18e-02  cpu-gpu 1.53e-02  ok
+native_expert_parity: 1 failures
+
+      Start 74: native_expert_parity_new_iq2_xs_q2_0
+74/95 Test #74: native_expert_parity_new_iq2_xs_q2_0 ......***Failed    2.89 sec
+          iq2_xs avx2 gate rows vs ggml vec_dot: rel 1.51e+33
+          iq2_xs avx2 gate rows MISMATCH (rel 1.51e+33 > 1e-5)
+          gate+up one token one thread: avx2 277 us (3.42 GB/s), ggml 208 us (4.55 GB/s)
+          gate+up 3 tokens one thread: avx2 336 us vs ggml 3 x 208 us
+          q2_0 AVX-2 down vs ggml down: rel 2.02e-04
+pair   0  iq2_xs  /q2_0    blob  1408000  cpu rel 1.42e-02  gpu rel 1.23e-02  cpu-gpu 1.57e-02  ok
+native_expert_parity: 1 failures
+
+      Start 75: native_expert_parity_new_iq2_xs_iq4_nl
+75/95 Test #75: native_expert_parity_new_iq2_xs_iq4_nl ....***Failed    3.12 sec
+          iq2_xs avx2 gate rows vs ggml vec_dot: rel 1.51e+33
+          iq2_xs avx2 gate rows MISMATCH (rel 1.51e+33 > 1e-5)
+          gate+up one token one thread: avx2 273 us (3.47 GB/s), ggml 241 us (3.93 GB/s)
+          gate+up 3 tokens one thread: avx2 333 us vs ggml 3 x 241 us
+          iq4_nl AVX-2 multi-token down vs ggml down: rel 2.08e+33
+          iq4_nl down MISMATCH (rel 2.08e+33 > 1e-5)
+          down 3 tokens one thread: avx2 145 us (6.35 GB/s) vs ggml 130 us (7.10 GB/s)
+pair   0  iq2_xs  /iq4_nl  blob  1868800  cpu rel 1.42e-02  gpu rel 1.21e-02  cpu-gpu 1.54e-02  ok
+native_expert_parity: 2 failures
+
+      Start 76: native_expert_parity_new_iq2_xs_q5_0
+76/95 Test #76: native_expert_parity_new_iq2_xs_q5_0 ......***Failed    2.89 sec
+          iq2_xs avx2 gate rows vs ggml vec_dot: rel 1.51e+33
+          iq2_xs avx2 gate rows MISMATCH (rel 1.51e+33 > 1e-5)
+          gate+up one token one thread: avx2 275 us (3.44 GB/s), ggml 222 us (4.26 GB/s)
+          gate+up 3 tokens one thread: avx2 333 us vs ggml 3 x 222 us
+pair   0  iq2_xs  /q5_0    blob  2073600  cpu rel 1.42e-02  gpu rel 1.21e-02  cpu-gpu 1.54e-02  ok
+native_expert_parity: 1 failures
+
+      Start 77: native_expert_parity_new_iq2_xs_q8_0
+77/95 Test #77: native_expert_parity_new_iq2_xs_q8_0 ......***Failed    2.86 sec
+          iq2_xs avx2 gate rows vs ggml vec_dot: rel 1.51e+33
+          iq2_xs avx2 gate rows MISMATCH (rel 1.51e+33 > 1e-5)
+          gate+up one token one thread: avx2 276 us (3.43 GB/s), ggml 216 us (4.39 GB/s)
+          gate+up 3 tokens one thread: avx2 333 us vs ggml 3 x 216 us
+pair   0  iq2_xs  /q8_0    blob  2688000  cpu rel 1.42e-02  gpu rel 1.21e-02  cpu-gpu 1.54e-02  ok
+native_expert_parity: 1 failures
+
+      Start 78: native_expert_parity_new_iq2_s_q2_0
+78/95 Test #78: native_expert_parity_new_iq2_s_q2_0 .......***Failed    3.28 sec
+          iq2_s avx2 gate rows vs ggml vec_dot: rel 1.53e+33
+          iq2_s avx2 gate rows MISMATCH (rel 1.53e+33 > 1e-5)
+          gate+up one token one thread: avx2 185 us (5.67 GB/s), ggml 126 us (8.31 GB/s)
+          gate+up 3 tokens one thread: avx2 227 us vs ggml 3 x 126 us
+          q2_0 AVX-2 down vs ggml down: rel 2.17e-04
+pair   0  iq2_s   /q2_0    blob  1510400  cpu rel 1.42e-02  gpu rel 1.22e-02  cpu-gpu 1.51e-02  ok
+native_expert_parity: 1 failures
+
+      Start 79: native_expert_parity_new_iq2_s_iq4_nl
+79/95 Test #79: native_expert_parity_new_iq2_s_iq4_nl .....***Failed    3.55 sec
+          iq2_s avx2 gate rows vs ggml vec_dot: rel 1.53e+33
+          iq2_s avx2 gate rows MISMATCH (rel 1.53e+33 > 1e-5)
+          gate+up one token one thread: avx2 164 us (6.38 GB/s), ggml 128 us (8.20 GB/s)
+          gate+up 3 tokens one thread: avx2 222 us vs ggml 3 x 128 us
+          iq4_nl AVX-2 multi-token down vs ggml down: rel 2.21e+33
+          iq4_nl down MISMATCH (rel 2.21e+33 > 1e-5)
+          down 3 tokens one thread: avx2 136 us (6.76 GB/s) vs ggml 150 us (6.13 GB/s)
+pair   0  iq2_s   /iq4_nl  blob  1971200  cpu rel 1.41e-02  gpu rel 1.21e-02  cpu-gpu 1.50e-02  ok
+native_expert_parity: 2 failures
+
+      Start 80: native_expert_parity_new_iq2_s_q5_0
+80/95 Test #80: native_expert_parity_new_iq2_s_q5_0 .......***Failed    3.28 sec
+          iq2_s avx2 gate rows vs ggml vec_dot: rel 1.53e+33
+          iq2_s avx2 gate rows MISMATCH (rel 1.53e+33 > 1e-5)
+          gate+up one token one thread: avx2 167 us (6.28 GB/s), ggml 129 us (8.15 GB/s)
+          gate+up 3 tokens one thread: avx2 222 us vs ggml 3 x 129 us
+pair   0  iq2_s   /q5_0    blob  2176000  cpu rel 1.41e-02  gpu rel 1.21e-02  cpu-gpu 1.49e-02  ok
+native_expert_parity: 1 failures
+
+      Start 81: native_expert_parity_new_iq2_s_q8_0
+81/95 Test #81: native_expert_parity_new_iq2_s_q8_0 .......***Failed    3.27 sec
+          iq2_s avx2 gate rows vs ggml vec_dot: rel 1.53e+33
+          iq2_s avx2 gate rows MISMATCH (rel 1.53e+33 > 1e-5)
+          gate+up one token one thread: avx2 195 us (5.38 GB/s), ggml 125 us (8.41 GB/s)
+          gate+up 3 tokens one thread: avx2 239 us vs ggml 3 x 125 us
+pair   0  iq2_s   /q8_0    blob  2790400  cpu rel 1.41e-02  gpu rel 1.21e-02  cpu-gpu 1.50e-02  ok
+native_expert_parity: 1 failures
+
+      Start 82: native_expert_parity_new_q2_0_q2_0
+82/95 Test #82: native_expert_parity_new_q2_0_q2_0 ........   Passed    0.16 sec
+      Start 83: native_expert_parity_new_q2_0_iq4_nl
+83/95 Test #83: native_expert_parity_new_q2_0_iq4_nl ......***Failed    0.39 sec
+          iq4_nl AVX-2 multi-token down vs ggml down: rel 2.54e+33
+          iq4_nl down MISMATCH (rel 2.54e+33 > 1e-5)
+          down 3 tokens one thread: avx2 131 us (7.05 GB/s) vs ggml 131 us (7.05 GB/s)
+pair   0  q2_0    /iq4_nl  blob  1843200  cpu rel 1.23e-02  gpu rel 1.23e-02  cpu-gpu 1.09e-07  ok
+native_expert_parity: 1 failures
+
+      Start 84: native_expert_parity_new_q2_0_q5_0
+84/95 Test #84: native_expert_parity_new_q2_0_q5_0 ........   Passed    0.14 sec
+      Start 85: native_expert_parity_new_q2_0_q8_0
+85/95 Test #85: native_expert_parity_new_q2_0_q8_0 ........   Passed    0.16 sec
+      Start 86: native_expert_parity_new_iq3_xxs_q2_0
+86/95 Test #86: native_expert_parity_new_iq3_xxs_q2_0 .....***Failed    0.94 sec
+          iq3_xxs avx2 gate rows vs ggml vec_dot: rel 1.48e+33
+          iq3_xxs avx2 gate rows MISMATCH (rel 1.48e+33 > 1e-5)
+          gate+up one token one thread: avx2 187 us (6.70 GB/s), ggml 243 us (5.17 GB/s)
+          gate+up 3 tokens one thread: avx2 293 us vs ggml 3 x 243 us
+          q2_0 AVX-2 down vs ggml down: rel 2.24e-04
+pair   0  iq3_xxs /q2_0    blob  1715200  cpu rel 1.41e-02  gpu rel 1.24e-02  cpu-gpu 1.47e-02  ok
+native_expert_parity: 1 failures
+
+      Start 87: native_expert_parity_new_iq3_xxs_iq4_nl
+87/95 Test #87: native_expert_parity_new_iq3_xxs_iq4_nl ...***Failed    1.17 sec
+          iq3_xxs avx2 gate rows vs ggml vec_dot: rel 1.48e+33
+          iq3_xxs avx2 gate rows MISMATCH (rel 1.48e+33 > 1e-5)
+          gate+up one token one thread: avx2 203 us (6.19 GB/s), ggml 231 us (5.42 GB/s)
+          gate+up 3 tokens one thread: avx2 309 us vs ggml 3 x 231 us
+          iq4_nl AVX-2 multi-token down vs ggml down: rel 2.06e+33
+          iq4_nl down MISMATCH (rel 2.06e+33 > 1e-5)
+          down 3 tokens one thread: avx2 139 us (6.62 GB/s) vs ggml 133 us (6.95 GB/s)
+pair   0  iq3_xxs /iq4_nl  blob  2176000  cpu rel 1.41e-02  gpu rel 1.24e-02  cpu-gpu 1.46e-02  ok
+native_expert_parity: 2 failures
+
+      Start 88: native_expert_parity_new_iq3_xxs_q5_0
+88/95 Test #88: native_expert_parity_new_iq3_xxs_q5_0 .....***Failed    0.95 sec
+          iq3_xxs avx2 gate rows vs ggml vec_dot: rel 1.48e+33
+          iq3_xxs avx2 gate rows MISMATCH (rel 1.48e+33 > 1e-5)
+          gate+up one token one thread: avx2 188 us (6.68 GB/s), ggml 241 us (5.20 GB/s)
+          gate+up 3 tokens one thread: avx2 293 us vs ggml 3 x 241 us
+pair   0  iq3_xxs /q5_0    blob  2380800  cpu rel 1.41e-02  gpu rel 1.24e-02  cpu-gpu 1.46e-02  ok
+native_expert_parity: 1 failures
+
+      Start 89: native_expert_parity_new_iq3_xxs_q8_0
+89/95 Test #89: native_expert_parity_new_iq3_xxs_q8_0 .....***Failed    0.94 sec
+          iq3_xxs avx2 gate rows vs ggml vec_dot: rel 1.48e+33
+          iq3_xxs avx2 gate rows MISMATCH (rel 1.48e+33 > 1e-5)
+          gate+up one token one thread: avx2 187 us (6.71 GB/s), ggml 243 us (5.17 GB/s)
+          gate+up 3 tokens one thread: avx2 298 us vs ggml 3 x 243 us
+pair   0  iq3_xxs /q8_0    blob  2995200  cpu rel 1.41e-02  gpu rel 1.24e-02  cpu-gpu 1.46e-02  ok
+native_expert_parity: 1 failures
+
+      Start 90: native_expert_parity_new_iq4_xs_q2_0
+90/95 Test #90: native_expert_parity_new_iq4_xs_q2_0 ......   Passed    0.60 sec
+      Start 91: native_expert_parity_new_iq4_xs_iq4_nl
+91/95 Test #91: native_expert_parity_new_iq4_xs_iq4_nl ....***Failed    0.82 sec
+          iq4_nl AVX-2 multi-token down vs ggml down: rel 1.94e+33
+          iq4_nl down MISMATCH (rel 1.94e+33 > 1e-5)
+          down 3 tokens one thread: avx2 135 us (6.84 GB/s) vs ggml 132 us (6.97 GB/s)
+strata: IQ4_XS exact multi-entry decode reuse enabled
+pair   0  iq4_xs  /iq4_nl  blob  2662400  cpu rel 1.45e-02  gpu rel 1.20e-02  cpu-gpu 1.44e-02  ok
+native_expert_parity: 1 failures
+
+      Start 92: native_expert_parity_new_iq4_xs_q5_0
+92/95 Test #92: native_expert_parity_new_iq4_xs_q5_0 ......   Passed    0.58 sec
+      Start 93: native_expert_parity_new_iq4_xs_q8_0
+93/95 Test #93: native_expert_parity_new_iq4_xs_q8_0 ......   Passed    0.58 sec
+      Start 94: tq_sycl_parity_synthetic
+94/95 Test #94: tq_sycl_parity_synthetic ..................   Passed    0.29 sec
+      Start 95: tq_sycl_parity_synthetic_hadamard
+95/95 Test #95: tq_sycl_parity_synthetic_hadamard .........   Passed    0.19 sec
+
+78% tests passed, 21 tests failed out of 95
+
+Total Test time (real) = 155.46 sec
+
+The following tests FAILED:
+	 40 - ple_parity (Failed)
+	 45 - verify_parity (Failed)
+	 67 - native_expert_parity_new_iq1_m_iq4_nl (Failed)
+	 70 - native_expert_parity_new_iq2_xxs_q2_0 (Failed)
+	 71 - native_expert_parity_new_iq2_xxs_iq4_nl (Failed)
+	 72 - native_expert_parity_new_iq2_xxs_q5_0 (Failed)
+	 73 - native_expert_parity_new_iq2_xxs_q8_0 (Failed)
+	 74 - native_expert_parity_new_iq2_xs_q2_0 (Failed)
+	 75 - native_expert_parity_new_iq2_xs_iq4_nl (Failed)
+	 76 - native_expert_parity_new_iq2_xs_q5_0 (Failed)
+	 77 - native_expert_parity_new_iq2_xs_q8_0 (Failed)
+	 78 - native_expert_parity_new_iq2_s_q2_0 (Failed)
+	 79 - native_expert_parity_new_iq2_s_iq4_nl (Failed)
+	 80 - native_expert_parity_new_iq2_s_q5_0 (Failed)
+	 81 - native_expert_parity_new_iq2_s_q8_0 (Failed)
+	 83 - native_expert_parity_new_q2_0_iq4_nl (Failed)
+	 86 - native_expert_parity_new_iq3_xxs_q2_0 (Failed)
+	 87 - native_expert_parity_new_iq3_xxs_iq4_nl (Failed)
+	 88 - native_expert_parity_new_iq3_xxs_q5_0 (Failed)
+	 89 - native_expert_parity_new_iq3_xxs_q8_0 (Failed)
+	 91 - native_expert_parity_new_iq4_xs_iq4_nl (Failed)
+Errors while running CTest

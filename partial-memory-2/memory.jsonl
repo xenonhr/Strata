@@ -1,0 +1,4 @@
+{"round": 0, "arm": "main", "req": "chat0", "decode": 20.9, "prompt": 38.7, "prompt_n": 34, "n": 256, "text": "```python\ndef merge_sorted_lists(list1: list, list2: list) -> list:\n    \"\"\"\n    "}
+{"round": 0, "arm": "main", "req": "chat1", "decode": 16.4, "prompt": 20.5, "prompt_n": 27, "n": 256, "text": "A refrigerator operates on the principles of thermodynamics, specifically utiliz"}
+{"round": 0, "arm": "main", "req": "chat2", "decode": 14.5, "prompt": 22.9, "prompt_n": 29, "n": 256, "text": "1. Establish a consistent daily routine, even if it is only for fifteen minutes,"}
+{"round": 0, "arm": "main", "req": "long", "decode": 15.0, "prompt": 412.6, "prompt_n": 6345, "n": 145, "text": "The list consists primarily of words describing natural landscapes and geologica"}

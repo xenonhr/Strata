@@ -1,0 +1,5 @@
+round 0 main: ready in 28 s
+  chat0  decode 20.9 tok/s  prompt 38.7 tok/s (34)  n 256
+  chat1  decode 16.4 tok/s  prompt 20.5 tok/s (27)  n 256
+  chat2  decode 14.5 tok/s  prompt 22.9 tok/s (29)  n 256
+  long   decode 15.0 tok/s  prompt 412.6 tok/s (6345)  n 145

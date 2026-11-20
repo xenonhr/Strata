@@ -1,0 +1,20 @@
+{"round": 0, "arm": "main", "req": "chat0", "decode": 19.8, "prompt": 33.8, "prompt_n": 34, "n": 256, "text": "```python\ndef merge_sorted_lists(list1: list, list2: list) -> list:\n    \"\"\"\n    "}
+{"round": 0, "arm": "main", "req": "chat1", "decode": 13.8, "prompt": 15.2, "prompt_n": 27, "n": 256, "text": "A refrigerator operates on the principles of thermodynamics, specifically utiliz"}
+{"round": 0, "arm": "main", "req": "chat2", "decode": 12.8, "prompt": 11.7, "prompt_n": 29, "n": 256, "text": "1. Establish a consistent daily routine, even if it is only for fifteen minutes,"}
+{"round": 0, "arm": "main", "req": "long", "decode": 13.0, "prompt": 379.9, "prompt_n": 6345, "n": 151, "text": "The list consists primarily of words describing natural landscapes and geologica"}
+{"round": 0, "arm": "pr3729", "req": "chat0", "decode": 23.4, "prompt": 41.8, "prompt_n": 34, "n": 256, "text": "```python\ndef merge_sorted_lists(list1: list, list2: list) -> list:\n    \"\"\"\n    "}
+{"round": 0, "arm": "pr3729", "req": "chat1", "decode": 17.4, "prompt": 30.9, "prompt_n": 27, "n": 256, "text": "A refrigerator operates on the principles of thermodynamics, specifically utiliz"}
+{"round": 0, "arm": "pr3729", "req": "chat2", "decode": 16.9, "prompt": 34.8, "prompt_n": 29, "n": 256, "text": "1. Establish a consistent daily routine, even if it is only for fifteen minutes,"}
+{"round": 0, "arm": "pr3729", "req": "long", "decode": 17.8, "prompt": 414.3, "prompt_n": 6345, "n": 158, "text": "The list consists primarily of words describing natural landscapes and geologica"}
+{"round": 0, "arm": "onepool", "req": "chat0", "decode": 26.7, "prompt": 43.3, "prompt_n": 34, "n": 256, "text": "```python\ndef merge_sorted_lists(list1: list, list2: list) -> list:\n    \"\"\"\n    "}
+{"round": 0, "arm": "onepool", "req": "chat1", "decode": 20.2, "prompt": 41.5, "prompt_n": 27, "n": 256, "text": "A refrigerator operates on the principles of thermodynamics, specifically utiliz"}
+{"round": 0, "arm": "onepool", "req": "chat2", "decode": 18.4, "prompt": 44.4, "prompt_n": 29, "n": 256, "text": "1. Establish a consistent daily routine, even if it is only for fifteen minutes,"}
+{"round": 0, "arm": "onepool", "req": "long", "decode": 16.4, "prompt": 334.8, "prompt_n": 6345, "n": 108, "text": "The list consists primarily of nouns representing natural geological features, s"}
+{"round": 1, "arm": "onepool", "req": "chat0", "decode": 24.9, "prompt": 42.2, "prompt_n": 34, "n": 256, "text": "```python\ndef merge_sorted_lists(list1: list, list2: list) -> list:\n    \"\"\"\n    "}
+{"round": 1, "arm": "onepool", "req": "chat1", "decode": 20.1, "prompt": 41.5, "prompt_n": 27, "n": 256, "text": "A refrigerator operates on the principles of thermodynamics, specifically utiliz"}
+{"round": 1, "arm": "onepool", "req": "chat2", "decode": 18.6, "prompt": 43.5, "prompt_n": 29, "n": 256, "text": "1. Establish a consistent daily routine, even if it is only for fifteen minutes,"}
+{"round": 1, "arm": "onepool", "req": "long", "decode": 19.1, "prompt": 343.4, "prompt_n": 6345, "n": 167, "text": "The list consists primarily of nouns representing natural landscapes, geological"}
+{"round": 1, "arm": "pr3729", "req": "chat0", "decode": 21.5, "prompt": 38.0, "prompt_n": 34, "n": 256, "text": "```python\ndef merge_sorted_lists(list1: list, list2: list) -> list:\n    \"\"\"\n    "}
+{"round": 1, "arm": "pr3729", "req": "chat1", "decode": 17.2, "prompt": 22.6, "prompt_n": 27, "n": 256, "text": "A refrigerator operates on the principles of thermodynamics, specifically utiliz"}
+{"round": 1, "arm": "pr3729", "req": "chat2", "decode": 16.1, "prompt": 27.1, "prompt_n": 29, "n": 256, "text": "1. Immerse yourself in the target language daily by listening to podcasts, watch"}
+{"round": 1, "arm": "pr3729", "req": "long", "decode": 16.4, "prompt": 381.4, "prompt_n": 6345, "n": 153, "text": "The list consists primarily of words describing natural landscapes and geologica"}

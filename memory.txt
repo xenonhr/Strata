@@ -1,0 +1,51 @@
+round 0 main: ready in 23 s
+  chat0  decode 16.9 tok/s  prompt 31.1 tok/s (34)  n 256
+  chat1  decode 14.4 tok/s  prompt 15.2 tok/s (27)  n 256
+  chat2  decode 13.9 tok/s  prompt 16.1 tok/s (29)  n 256
+  long   decode 13.7 tok/s  prompt 371.1 tok/s (6345)  n 147
+round 0 pr3729: ready in 25 s
+  chat0  decode 21.8 tok/s  prompt 39.5 tok/s (34)  n 256
+  chat1  decode 17.8 tok/s  prompt 26.5 tok/s (27)  n 256
+  chat2  decode 16.0 tok/s  prompt 30.1 tok/s (29)  n 256
+  long   decode 15.8 tok/s  prompt 425.1 tok/s (6345)  n 155
+round 0 onepool: ready in 19 s
+  chat0  decode 26.5 tok/s  prompt 47.3 tok/s (34)  n 256
+  chat1  decode 20.7 tok/s  prompt 44.6 tok/s (27)  n 256
+  chat2  decode 19.6 tok/s  prompt 46.5 tok/s (29)  n 256
+  long   decode 20.4 tok/s  prompt 319.2 tok/s (6345)  n 161
+round 1 onepool: ready in 22 s
+  chat0  decode 26.1 tok/s  prompt 47.2 tok/s (34)  n 256
+  chat1  decode 20.7 tok/s  prompt 44.4 tok/s (27)  n 256
+  chat2  decode 19.6 tok/s  prompt 46.6 tok/s (29)  n 256
+  long   decode 20.5 tok/s  prompt 289.4 tok/s (6345)  n 161
+round 1 pr3729: ready in 26 s
+  chat0  decode 18.3 tok/s  prompt 32.5 tok/s (34)  n 256
+  chat1  decode 16.3 tok/s  prompt 17.5 tok/s (27)  n 256
+  chat2  decode 15.2 tok/s  prompt 20.8 tok/s (29)  n 256
+  long   decode 14.7 tok/s  prompt 292.9 tok/s (6345)  n 156
+round 1 main: ready in 25 s
+  chat0  decode 19.1 tok/s  prompt 35.7 tok/s (34)  n 256
+  chat1  decode 15.4 tok/s  prompt 17.3 tok/s (27)  n 253
+  chat2  decode 13.8 tok/s  prompt 16.7 tok/s (29)  n 256
+  long   decode 13.3 tok/s  prompt 394.6 tok/s (6345)  n 121
+round 2 main: ready in 25 s
+  chat0  decode 21.1 tok/s  prompt 39.2 tok/s (34)  n 256
+  chat1  decode 16.5 tok/s  prompt 23.4 tok/s (27)  n 256
+  chat2  decode 15.5 tok/s  prompt 24.7 tok/s (29)  n 256
+  long   decode 13.1 tok/s  prompt 414.0 tok/s (6345)  n 112
+round 2 pr3729: ready in 25 s
+  chat0  decode 21.6 tok/s  prompt 38.6 tok/s (34)  n 256
+  chat1  decode 16.3 tok/s  prompt 20.9 tok/s (27)  n 252
+  chat2  decode 15.0 tok/s  prompt 23.2 tok/s (29)  n 256
+  long   decode 14.3 tok/s  prompt 403.5 tok/s (6345)  n 124
+round 2 onepool: ready in 22 s
+  chat0  decode 26.3 tok/s  prompt 47.4 tok/s (34)  n 256
+  chat1  decode 20.3 tok/s  prompt 45.1 tok/s (27)  n 256
+  chat2  decode 19.3 tok/s  prompt 47.0 tok/s (29)  n 256
+  long   decode 20.4 tok/s  prompt 322.8 tok/s (6345)  n 161
+
+medians over rounds:
+  chat0  | main: decode   19.1  prompt    35.7 | pr3729: decode   21.6  prompt    38.6 | onepool: decode   26.3  prompt    47.3
+  chat1  | main: decode   15.4  prompt    17.3 | pr3729: decode   16.3  prompt    20.9 | onepool: decode   20.7  prompt    44.6
+  chat2  | main: decode   13.9  prompt    16.7 | pr3729: decode   15.2  prompt    23.2 | onepool: decode   19.6  prompt    46.6
+  long   | main: decode   13.3  prompt   394.6 | pr3729: decode   14.7  prompt   403.5 | onepool: decode   20.4  prompt   319.2

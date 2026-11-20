@@ -1,0 +1,24 @@
+{"round": 0, "arm": "walk", "req": "chat0", "decode": 25.7, "prompt": 46.2, "prompt_n": 34, "n": 256, "text": "```python\ndef merge_sorted_lists(list1: list, list2: list) -> list:\n    \"\"\"\n    "}
+{"round": 0, "arm": "walk", "req": "chat1", "decode": 20.0, "prompt": 45.0, "prompt_n": 27, "n": 256, "text": "A refrigerator operates on the principles of thermodynamics, specifically utiliz"}
+{"round": 0, "arm": "walk", "req": "chat2", "decode": 19.5, "prompt": 46.7, "prompt_n": 29, "n": 256, "text": "1. Establish a consistent daily routine, even if it is only for fifteen minutes,"}
+{"round": 0, "arm": "walk", "req": "long", "decode": 20.7, "prompt": 383.1, "prompt_n": 6345, "n": 161, "text": "The list consists primarily of words describing natural landscapes and geologica"}
+{"round": 0, "arm": "routed", "req": "chat0", "decode": 25.9, "prompt": 47.4, "prompt_n": 34, "n": 256, "text": "```python\ndef merge_sorted_lists(list1: list, list2: list) -> list:\n    \"\"\"\n    "}
+{"round": 0, "arm": "routed", "req": "chat1", "decode": 20.3, "prompt": 44.7, "prompt_n": 27, "n": 256, "text": "A refrigerator operates on the principles of thermodynamics, specifically utiliz"}
+{"round": 0, "arm": "routed", "req": "chat2", "decode": 19.3, "prompt": 46.6, "prompt_n": 29, "n": 256, "text": "1. Establish a consistent daily routine, even if it is only for fifteen minutes,"}
+{"round": 0, "arm": "routed", "req": "long", "decode": 20.3, "prompt": 348.5, "prompt_n": 6345, "n": 161, "text": "The list consists primarily of words describing natural landscapes and geologica"}
+{"round": 1, "arm": "routed", "req": "chat0", "decode": 26.3, "prompt": 44.9, "prompt_n": 34, "n": 256, "text": "```python\ndef merge_sorted_lists(list1: list, list2: list) -> list:\n    \"\"\"\n    "}
+{"round": 1, "arm": "routed", "req": "chat1", "decode": 20.7, "prompt": 44.5, "prompt_n": 27, "n": 256, "text": "A refrigerator operates on the principles of thermodynamics, specifically utiliz"}
+{"round": 1, "arm": "routed", "req": "chat2", "decode": 19.7, "prompt": 46.5, "prompt_n": 29, "n": 256, "text": "1. Establish a consistent daily routine, even if it is only for fifteen minutes,"}
+{"round": 1, "arm": "routed", "req": "long", "decode": 20.4, "prompt": 307.7, "prompt_n": 6345, "n": 161, "text": "The list consists primarily of words describing natural landscapes and geologica"}
+{"round": 1, "arm": "walk", "req": "chat0", "decode": 26.6, "prompt": 44.4, "prompt_n": 34, "n": 256, "text": "```python\ndef merge_sorted_lists(list1: list, list2: list) -> list:\n    \"\"\"\n    "}
+{"round": 1, "arm": "walk", "req": "chat1", "decode": 20.5, "prompt": 44.9, "prompt_n": 27, "n": 256, "text": "A refrigerator operates on the principles of thermodynamics, specifically utiliz"}
+{"round": 1, "arm": "walk", "req": "chat2", "decode": 19.7, "prompt": 46.8, "prompt_n": 29, "n": 256, "text": "1. Establish a consistent daily routine, even if it is only for fifteen minutes,"}
+{"round": 1, "arm": "walk", "req": "long", "decode": 20.8, "prompt": 308.5, "prompt_n": 6345, "n": 161, "text": "The list consists primarily of words describing natural landscapes and geologica"}
+{"round": 2, "arm": "walk", "req": "chat0", "decode": 26.2, "prompt": 46.7, "prompt_n": 34, "n": 256, "text": "```python\ndef merge_sorted_lists(list1: list, list2: list) -> list:\n    \"\"\"\n    "}
+{"round": 2, "arm": "walk", "req": "chat1", "decode": 20.5, "prompt": 44.3, "prompt_n": 27, "n": 256, "text": "A refrigerator operates on the principles of thermodynamics, specifically utiliz"}
+{"round": 2, "arm": "walk", "req": "chat2", "decode": 19.7, "prompt": 46.3, "prompt_n": 29, "n": 256, "text": "1. Establish a consistent daily routine, even if it is only for fifteen minutes,"}
+{"round": 2, "arm": "walk", "req": "long", "decode": 20.0, "prompt": 381.0, "prompt_n": 6345, "n": 161, "text": "The list consists primarily of words describing natural landscapes and geologica"}
+{"round": 2, "arm": "routed", "req": "chat0", "decode": 26.2, "prompt": 47.1, "prompt_n": 34, "n": 256, "text": "```python\ndef merge_sorted_lists(list1: list, list2: list) -> list:\n    \"\"\"\n    "}
+{"round": 2, "arm": "routed", "req": "chat1", "decode": 20.3, "prompt": 44.7, "prompt_n": 27, "n": 256, "text": "A refrigerator operates on the principles of thermodynamics, specifically utiliz"}
+{"round": 2, "arm": "routed", "req": "chat2", "decode": 19.7, "prompt": 46.5, "prompt_n": 29, "n": 256, "text": "1. Establish a consistent daily routine, even if it is only for fifteen minutes,"}
+{"round": 2, "arm": "routed", "req": "long", "decode": 20.1, "prompt": 242.5, "prompt_n": 6345, "n": 161, "text": "The list consists primarily of words describing natural landscapes and geologica"}

@@ -1,0 +1,61 @@
+tools/check: 2026-11-20 22:25:32, python 3.12.15, scratch /tmp/strata-check-1k8s599d
+... py-tests
+    py-tests passed
+... py-tools
+    py-tools passed
+... docs
+    docs passed
+
+step      status  passed  failed  skipped    time
+--------  ------  ------  ------  -------  ------
+py-tests  passed    4232       0       80  29m42s
+py-tools  passed    1851       0       22   3m53s
+docs      passed       6       0        0   0m00s
+
+SKIPPED, with the reason:
+  py-tests          13  ACLs are Windows only
+  py-tests          11  NTFS ACLs
+  py-tests           6  NSIS (the Tauri bundler's copy) is not installed here
+  py-tests           6  needs Windows PowerShell
+  py-tests           5  extended-length paths are a Windows thing
+  py-tests           3  needs Windows cmd
+  py-tests           2  Windows PowerShell
+  py-tests           2  the packager only copies DLLs for Windows targets
+  py-tests           2  the published 0.2.14 files are only on the owner PC (C:\rc214\FINAL4\UPLOAD) or in STRATA_FINAL4_DIR
+  py-tests           2  no PowerShell
+  py-tests           2  SDDL aliases exist on Windows only
+  py-tests           2  the limit is a Windows one
+  py-tests           2  real-time: STRATA_SLOW_NET_TESTS=1
+  py-tests           2  the Windows installer runs only on Windows
+  py-tests           2  the real _wmi exists on Windows only
+  py-tests           1  no NVIDIA GPU here: setup stops at step 1
+  py-tests           1  taskkill is the Windows stop
+  py-tests           1  Windows: a refused taskkill
+  py-tests           1  Windows: every way of ending it refused
+  py-tests           1  Windows token default DACL
+  py-tests           1  the Mac's preferences file
+  py-tests           1  ctypes calls of Windows
+  py-tests           1  set STRATA_TEST_OTHER_VOLUME to a folder on another volume (e.g. a subst or USB drive)
+  py-tests           1  a program holding a file inside the folder refuses the rename only on Windows
+  py-tests           1  real-time trickle: STRATA_SLOW_NET_TESTS=1
+  py-tests           1  a creation time is recorded with the PID on Windows only
+  py-tests           1  os.kill(pid, 0) ends a process on Windows; liveness is a handle query
+  py-tests           1  ACLs stand in for mode 0700 on Windows
+  py-tests           1  the venv launcher is a Windows thing
+  py-tests           1  Windows path rules
+  py-tests           1  Windows system folders
+  py-tests           1  STRATA_VISION_GGUF_TEST is not set (build the strata-vision-gguf-test target)
+  py-tests           1  cmd.exe's code
+  py-tools           7  no tokenizer (set STRATA_TOKENIZER or STRATA_GGUF_PY)
+  py-tools           4  this gcc cannot build a static PIE
+  py-tools           2  the vendored converter is not importable here
+  py-tools           2  could not import 'torch': No module named 'torch'
+  py-tools           1  ('<checkout:launch-swift-ple>/terminal/tools/test_nvfp4_verify_gguf_ple.py', 21, 'torch and safetensors are not inst
+  py-tools           1  torch or safetensors is not installed here (the point of the change)
+  py-tools           1  the 0.1.40.2 HIP zip is not here
+  py-tools           1  set STRATA_LIVE_HF=1 to read real headers from Hugging Face
+  py-tools           1  the CPUID stub runs on Windows
+  py-tools           1  Windows process trees
+  py-tools           1  llama.cpp's ggml-vocab-qwen35.gguf test vectors are not here
+
+check: 3 passed, 0 failed, 0 not run (of 3 steps)

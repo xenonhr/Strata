@@ -1,0 +1,11 @@
+round 0 onepool-final: ready in 22 s
+  chat0  decode 25.8 tok/s  prompt 44.8 tok/s (34)  n 256
+  chat1  decode 20.0 tok/s  prompt 44.6 tok/s (27)  n 256
+  chat2  decode 20.1 tok/s  prompt 46.7 tok/s (29)  n 256
+  long   decode 20.4 tok/s  prompt 368.0 tok/s (6345)  n 161
+
+medians over rounds:
+  chat0  | onepool-final: decode   25.8  prompt    44.8
+  chat1  | onepool-final: decode   20.0  prompt    44.6
+  chat2  | onepool-final: decode   20.1  prompt    46.7
+  long   | onepool-final: decode   20.4  prompt   368.0

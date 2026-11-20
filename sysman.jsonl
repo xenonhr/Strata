@@ -1,0 +1,8 @@
+{"round": 0, "arm": "pr3729-plain", "req": "chat0", "decode": 11.4, "prompt": 16.0, "prompt_n": 34, "n": 256, "text": "```python\ndef merge_sorted_lists(list1: list, list2: list) -> list:\n    \"\"\"\n    "}
+{"round": 0, "arm": "pr3729-plain", "req": "chat1", "decode": 14.2, "prompt": 11.9, "prompt_n": 27, "n": 256, "text": "A refrigerator operates on the principles of thermodynamics, specifically utiliz"}
+{"round": 0, "arm": "pr3729-plain", "req": "chat2", "decode": 12.7, "prompt": 13.6, "prompt_n": 29, "n": 256, "text": "1. Immerse yourself in the target language daily by listening to podcasts, watch"}
+{"round": 0, "arm": "pr3729-plain", "req": "long", "decode": 13.0, "prompt": 398.2, "prompt_n": 6345, "n": 144, "text": "The list consists primarily of words describing natural landscapes and geologica"}
+{"round": 0, "arm": "pr3729-sysman", "req": "chat0", "decode": 21.5, "prompt": 39.8, "prompt_n": 34, "n": 256, "text": "```python\ndef merge_sorted_lists(list1: list, list2: list) -> list:\n    \"\"\"\n    "}
+{"round": 0, "arm": "pr3729-sysman", "req": "chat1", "decode": 17.5, "prompt": 24.0, "prompt_n": 27, "n": 252, "text": "A refrigerator operates on the principles of thermodynamics, specifically utiliz"}
+{"round": 0, "arm": "pr3729-sysman", "req": "chat2", "decode": 14.7, "prompt": 25.9, "prompt_n": 29, "n": 256, "text": "1. Immerse yourself in the target language daily by changing your phone\u2019s interf"}
+{"round": 0, "arm": "pr3729-sysman", "req": "long", "decode": 15.9, "prompt": 376.9, "prompt_n": 6345, "n": 154, "text": "The list consists primarily of words describing natural landscapes and geologica"}

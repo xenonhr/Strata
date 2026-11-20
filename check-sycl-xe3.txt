@@ -1,0 +1,25 @@
+tools/check: 2026-11-20 23:20:08, python 3.12.15, scratch /tmp/strata-check-_b88ifa6
+... py-tools
+    py-tools passed
+... docs
+    docs passed
+
+step      status  passed  failed  skipped   time
+--------  ------  ------  ------  -------  -----
+py-tools  passed    1851       0       22  3m56s
+docs      passed       6       0        0  0m00s
+
+SKIPPED, with the reason:
+  py-tools           7  no tokenizer (set STRATA_TOKENIZER or STRATA_GGUF_PY)
+  py-tools           4  this gcc cannot build a static PIE
+  py-tools           2  the vendored converter is not importable here
+  py-tools           2  could not import 'torch': No module named 'torch'
+  py-tools           1  ('<checkout:sycl-xe3>/terminal/tools/test_nvfp4_verify_gguf_ple.py', 21, 'torch and safetensors are not installed he
+  py-tools           1  torch or safetensors is not installed here (the point of the change)
+  py-tools           1  the 0.1.40.2 HIP zip is not here
+  py-tools           1  set STRATA_LIVE_HF=1 to read real headers from Hugging Face
+  py-tools           1  the CPUID stub runs on Windows
+  py-tools           1  Windows process trees
+  py-tools           1  llama.cpp's ggml-vocab-qwen35.gguf test vectors are not here
+
+check: 2 passed, 0 failed, 0 not run (of 2 steps)

@@ -1,0 +1,16 @@
+round 0 pr3729-plain: ready in 22 s
+  chat0  decode 11.4 tok/s  prompt 16.0 tok/s (34)  n 256
+  chat1  decode 14.2 tok/s  prompt 11.9 tok/s (27)  n 256
+  chat2  decode 12.7 tok/s  prompt 13.6 tok/s (29)  n 256
+  long   decode 13.0 tok/s  prompt 398.2 tok/s (6345)  n 144
+round 0 pr3729-sysman: ready in 28 s
+  chat0  decode 21.5 tok/s  prompt 39.8 tok/s (34)  n 256
+  chat1  decode 17.5 tok/s  prompt 24.0 tok/s (27)  n 252
+  chat2  decode 14.7 tok/s  prompt 25.9 tok/s (29)  n 256
+  long   decode 15.9 tok/s  prompt 376.9 tok/s (6345)  n 154
+
+medians over rounds:
+  chat0  | pr3729-plain: decode   11.4  prompt    16.0 | pr3729-sysman: decode   21.5  prompt    39.8
+  chat1  | pr3729-plain: decode   14.2  prompt    11.9 | pr3729-sysman: decode   17.5  prompt    24.0
+  chat2  | pr3729-plain: decode   12.7  prompt    13.6 | pr3729-sysman: decode   14.7  prompt    25.9
+  long   | pr3729-plain: decode   13.0  prompt   398.2 | pr3729-sysman: decode   15.9  prompt   376.9

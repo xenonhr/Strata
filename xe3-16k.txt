@@ -1,0 +1,36 @@
+round 0 generic: ready in 19 s
+  chat0  decode 26.6 tok/s  prompt 47.5 tok/s (34)  n 256
+  chat1  decode 20.3 tok/s  prompt 45.0 tok/s (27)  n 256
+  chat2  decode 19.6 tok/s  prompt 46.9 tok/s (29)  n 256
+  long   decode 20.0 tok/s  prompt 387.1 tok/s (12676)  n 151
+round 0 bmg: ready in 19 s
+  chat0  decode 26.7 tok/s  prompt 47.8 tok/s (34)  n 256
+  chat1  decode 20.7 tok/s  prompt 45.2 tok/s (27)  n 256
+  chat2  decode 20.1 tok/s  prompt 47.0 tok/s (29)  n 256
+  long   decode 20.1 tok/s  prompt 503.6 tok/s (12676)  n 137
+round 1 bmg: ready in 31 s
+  chat0  decode 25.8 tok/s  prompt 45.0 tok/s (34)  n 256
+  chat1  decode 20.3 tok/s  prompt 43.4 tok/s (27)  n 256
+  chat2  decode 19.5 tok/s  prompt 45.6 tok/s (29)  n 256
+  long   decode 20.5 tok/s  prompt 636.6 tok/s (12676)  n 146
+round 1 generic: ready in 28 s
+  chat0  decode 25.2 tok/s  prompt 46.1 tok/s (34)  n 256
+  chat1  decode 19.2 tok/s  prompt 43.2 tok/s (27)  n 256
+  chat2  decode 19.6 tok/s  prompt 45.5 tok/s (29)  n 256
+  long   decode 17.5 tok/s  prompt 384.8 tok/s (12676)  n 110
+round 2 generic: ready in 31 s
+  chat0  decode 25.5 tok/s  prompt 43.7 tok/s (34)  n 256
+  chat1  decode 19.8 tok/s  prompt 43.4 tok/s (27)  n 256
+  chat2  decode 19.3 tok/s  prompt 45.5 tok/s (29)  n 256
+  long   decode 17.8 tok/s  prompt 397.4 tok/s (12676)  n 110
+round 2 bmg: ready in 22 s
+  chat0  decode 26.8 tok/s  prompt 47.7 tok/s (34)  n 256
+  chat1  decode 20.6 tok/s  prompt 45.0 tok/s (27)  n 256
+  chat2  decode 19.6 tok/s  prompt 46.8 tok/s (29)  n 256
+  long   decode 19.9 tok/s  prompt 509.6 tok/s (12676)  n 137
+
+medians over rounds:
+  chat0  | generic: decode   25.5  prompt    46.1 | bmg: decode   26.7  prompt    47.7
+  chat1  | generic: decode   19.8  prompt    43.4 | bmg: decode   20.6  prompt    45.0
+  chat2  | generic: decode   19.6  prompt    45.5 | bmg: decode   19.6  prompt    46.8
+  long   | generic: decode   17.8  prompt   387.1 | bmg: decode   20.1  prompt   509.6

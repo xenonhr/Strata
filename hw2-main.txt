@@ -1,0 +1,26 @@
+=== ple 22:22:19
+server exited after 4 s
+shard 2 (main):
+7:strata generate: per_layer_token_embd.weight is not in <models>/Swift-Qwen3.8-Flash-Next-GSQ-RCO-IQ3_XXS-00002-of-00002.gguf
+server up in 45 s
+{"id": "chatcmpl-0b1c546682e34e99a655f2cc", "object": "chat.completion", "created": 1795209798, "model": "qwen3.8-flash-next", "choices": [{"index": 0, "message": {"role": "assistant", "content": "The Danube, the Rhine, and the Volga."}, "finish_reason": "stop"}], "usage": {"prompt_tokens": 21, "completion_tokens": 14, "total_tokens": 35, "prompt_tokens_details": {"cached_tokens": 0}}, "timings": {"cache_n": 0, "prompt_n": 21, "prompt_ms": 3441.7, "prompt_per_token_ms": 163.89, "prompt_per_second": 6.1, "predicted_n": 14, "predicted_ms": 1713.0, "predicted_per_token_ms": 122.357, "predicted_per_second": 8.2, "draft_n": 8, "draft_n_accepted": 8}}
+wall 5.2 s
+shard 1 (main):
+36:strata verify: captured the 6-token window (upload no error, sync no error)
+37:strata verify: captured the 2-token window (upload no error, sync no error)
+38:strata verify: captured the 1-token window (upload no error, sync no error)
+=== reader 22:23:34
+server up in 29 s
+'2847' 5.4 s
+main (main):
+7:[strata] filling the GPU's expert cache (11145 experts, 18.03 GiB of VRAM) ...
+10:[strata] images: the image encoder starts with the first picture and stops after 300 s without one
+13:[strata] images: the expert cache did not make room for the image encoder (VRAM needs an engine started with --vram-elastic (one NVIDIA GPU, --serve)); starting it anyway
+14:[strata] images: the image encoder started in 1.0 s, 344 MiB of VRAM
+server up in 22 s
+'2847' 6.2 s
+serve-cpu-reader (main):
+7:[strata] filling the GPU's expert cache (11564 experts, 18.72 GiB of VRAM) ...
+9:[strata] images: the image encoder starts with the first picture and stops after 300 s without one
+12:[strata] images: the image encoder started in 0.9 s, on the CPU
+=== done 22:25:01

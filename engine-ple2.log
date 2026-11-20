@@ -1,0 +1,7 @@
+[strata] 2026-11-20 20:56:38 engine started: <engine:onepool>/strata --serve --pack <pack> --native <models>/Swift-Qwen3.8-Flash-Next-GSQ-RCO-IQ3_XXS-00001-of-00002.gguf --ple-gguf <models>/Swift-Qwen3.8-Flash-Next-GSQ-RCO-IQ3_XXS-00002-of-00002.gguf --expert-profile <checkout:main>/terminal/data/expert-profile-sycl.bin --expert-cache auto --stream-experts --prefill auto --prefill-borrow --spec 4 --spec-min-p 0.5 --mtp <mtp> --max-context 131072 --kv int8 --vram-reserve-mib 1024
+strata generate: PCIe probe: 16.9 GB/s host->device (best of 16.7 16.9 16.8 16.7) -> pcie_frac 0.46 (default 0.55)
+strata generate: this CPU has no AVX512-VNNI: the expert kernels run on AVX-2 (multi-token for the i-quant gate/up rows)
+strata generate: native pack: <pack> experts (largest blob 2.33 MB), token embedding IQ3_S in mapped host memory (260 MiB, 0.1 s)
+strata generate: 1466 MiB of weights loaded from <pack> in 0.5 s (302 canonical tensors skipped: served natively)
+strata generate: 300 native projection matrices, 1781.11 MiB of weights, in 0.5 s
+strata generate: per_layer_token_embd.weight is not in <models>/Swift-Qwen3.8-Flash-Next-GSQ-RCO-IQ3_XXS-00002-of-00002.gguf

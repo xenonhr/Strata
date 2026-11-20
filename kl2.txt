@@ -1,0 +1,21 @@
+doc4k 5872 tokens
+list6k 6345 tokens
+doc12k 17401 tokens
+generic1 doc4k exit 0 993280 bytes
+generic1 list6k exit 0 993280 bytes
+generic1 doc12k exit 0 993280 bytes
+bmg doc4k exit 0 993280 bytes
+bmg list6k exit 0 993280 bytes
+bmg doc12k exit 0 993280 bytes
+generic2 doc4k exit 0 993280 bytes
+generic2 list6k exit 0 993280 bytes
+generic2 doc12k exit 0 993280 bytes
+== doc4k
+generic2-doc4k.bin: KL(A||B)=3.396e-02  top1 same  max|dlogit|=1.1624  max|dlogit| top5=0.3457  A top1 p=0.655
+bmg-doc4k.bin: KL(A||B)=1.521e-02  top1 same  max|dlogit|=1.7004  max|dlogit| top5=0.4426  A top1 p=0.655
+== list6k
+generic2-list6k.bin: KL(A||B)=1.846e-04  top1 same  max|dlogit|=0.8113  max|dlogit| top5=0.3728  A top1 p=0.997
+bmg-list6k.bin: KL(A||B)=1.398e-04  top1 same  max|dlogit|=1.0674  max|dlogit| top5=0.3480  A top1 p=0.997
+== doc12k
+generic2-doc12k.bin: KL(A||B)=1.512e-02  top1 same  max|dlogit|=1.3041  max|dlogit| top5=0.7080  A top1 p=0.459
+bmg-doc12k.bin: KL(A||B)=1.104e-02  top1 same  max|dlogit|=3.2376  max|dlogit| top5=0.6498  A top1 p=0.459

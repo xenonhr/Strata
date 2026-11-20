@@ -1,0 +1,9 @@
+=== final 23:03:55
+ab exit 0
+
+medians over rounds:
+  chat0  | onepool-final: decode   25.8  prompt    44.8
+  chat1  | onepool-final: decode   20.0  prompt    44.6
+  chat2  | onepool-final: decode   20.1  prompt    46.7
+  long   | onepool-final: decode   20.4  prompt   368.0
+=== done 23:05:27
