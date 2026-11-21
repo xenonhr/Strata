@@ -1,6 +1,6 @@
 # Arc Pro B390 runs for integrated-GPU support in the SYCL engine
 
-The runs behind [ISSUE LINE]. Every file is as the scripts wrote it, except that local paths
+The runs behind [Niko1221/Strata#6448](https://github.com/Niko1221/Strata/issues/6448) and its draft PRs: [#6453](https://github.com/Niko1221/Strata/pull/6453) (one pool), [#6455](https://github.com/Niko1221/Strata/pull/6455) (Xe3), [#6454](https://github.com/Niko1221/Strata/pull/6454) (Monitor and free memory), [#6451](https://github.com/Niko1221/Strata/pull/6451) (Swift's `--ple-gguf`) and [#6452](https://github.com/Niko1221/Strata/pull/6452) (CPU picture reader). Every file is as the scripts wrote it, except that local paths
 are replaced by placeholders: `<models>` (the model's folder), `<pack>`, `<mtp>`, `<engine:NAME>` (an engine
 package from the table below), `<checkout:NAME>` (a Strata checkout), `<parity-build>`, `<work>`, `<evidence>`, `~`.
 `*.bin` files are float32 logit dumps, copied unchanged.
@@ -27,7 +27,7 @@ Fedora 44, kernel 7.2.11, compute runtime 26.35.39758. Engines built with `tools
 | Name in the runs | Source |
 |---|---|
 | `main` | upstream main 3142b66b9 |
-| `pr3729` | main + #3729's commit (applied with `git am -3 --keep-non-patch --directory=engine`) |
+| `pr3729` | main + [#3729](https://github.com/Niko1221/Strata/pull/3729)'s commit (applied with `git am -3 --keep-non-patch --directory=engine`) |
 | `onepool` | `pr3729` + the one-pool PR as first measured; later only comments and docs changed |
 | `onepool-final` | `pr3729` + the one-pool PR's code as opened |
 | `xe3onepool` | `onepool` + the Xe3 PR |
@@ -85,4 +85,5 @@ main's engine.
   class and with `STRATA_INTEL_GEN=unknown`.
 - `parity-build-main.txt`, `ctest-main.txt`: the same for main 3142b66b9.
 - `ci-xe3.txt`: CI's compile of the Xe3 PR alone (`-DSTRATA_SYCL_PARITY=OFF -DSTRATA_SYCL_IQ_DECODE_FAST=ON`).
-- `check-*.txt`: `tools/check --strict` per PR branch; `smoke-serve-cpu-reader.json`: `terminal/tools/minimal_server_smoke.py`.
+- `check-*.txt`: `tools/check --strict` at each PR's head; `smoke-serve-*.json`: `terminal/tools/minimal_server_smoke.py --report`
+  with only `terminal/requirements.txt` installed.

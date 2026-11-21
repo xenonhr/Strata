@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "scope": "source_checkout_fake_engine_runtime_only",
+  "platform": "Linux-7.2.11-200.fc44.x86_64-x86_64-with-glibc2.43",
+  "python": "3.12.15",
+  "requirements_sha256": "8036a1c8db31b4c22a137e7100ed3b6dba9bb7e0e3886fb25cc2cefd8b54ecfb",
+  "optional_packages_visible": {
+    "rich": false,
+    "textual": false
+  },
+  "server_packages_visible": {
+    "numpy": true,
+    "jinja2": true,
+    "requests": true
+  },
+  "test_module": "tests.terminal.test_runtime",
+  "tests_run": 59,
+  "duration_s": 151.94,
+  "test_exit_code": 0,
+  "actual_gpu_engine": false,
+  "passed": true,
+  "test_summary": "........s........................s............s.s..............\n----------------------------------------------------------------------\nRan 63 tests in 151.821s\n\nOK (skipped=4)\n"
+}

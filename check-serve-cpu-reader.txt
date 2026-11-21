@@ -1,4 +1,5 @@
-tools/check: 2026-11-20 17:07:43, python 3.12.15, scratch /tmp/strata-check-z_ilbxcl
+=== serve-cpu-reader b02896323 py-serve,py-tools,docs 00:42:24
+tools/check: 2026-11-21 00:42:25, python 3.12.15, scratch /tmp/strata-check-k4qngczt
 ... py-serve
     py-serve passed
 ... py-tools
@@ -8,8 +9,8 @@ tools/check: 2026-11-20 17:07:43, python 3.12.15, scratch /tmp/strata-check-z_il
 
 step      status  passed  failed  skipped    time
 --------  ------  ------  ------  -------  ------
-py-serve  passed    2056       0       26  12m38s
-py-tools  passed    1851       0       22   3m55s
+py-serve  passed    2056       0       26  13m31s
+py-tools  passed    1851       0       22   3m59s
 docs      passed       6       0        0   0m00s
 
 SKIPPED, with the reason:
@@ -34,4 +35,8 @@ SKIPPED, with the reason:
   py-tools           1  llama.cpp's ggml-vocab-qwen35.gguf test vectors are not here
 
 check: 3 passed, 0 failed, 0 not run (of 3 steps)
-exit 0
+tools/check exit 0
+usage: minimal_server_smoke.py [-h] --report REPORT
+minimal_server_smoke.py: error: the following arguments are required: --report
+smoke exit 2
+=== end 00:59:56
