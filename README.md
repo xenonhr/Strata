@@ -1,6 +1,6 @@
 # Arc Pro B390 runs for integrated-GPU support in the SYCL engine
 
-The runs behind [Niko1221/Strata#6448](https://github.com/Niko1221/Strata/issues/6448) and its draft PRs: [#6453](https://github.com/Niko1221/Strata/pull/6453) (one pool), [#6455](https://github.com/Niko1221/Strata/pull/6455) (Xe3), [#6454](https://github.com/Niko1221/Strata/pull/6454) (Monitor and free memory), [#6451](https://github.com/Niko1221/Strata/pull/6451) (Swift's `--ple-gguf`) and [#6452](https://github.com/Niko1221/Strata/pull/6452) (CPU picture reader). Every file is as the scripts wrote it, except that local paths
+The runs behind [Niko1221/Strata#6448](https://github.com/Niko1221/Strata/issues/6448) and its PRs: [#6453](https://github.com/Niko1221/Strata/pull/6453) (one pool), [#6455](https://github.com/Niko1221/Strata/pull/6455) (Xe3), [#6454](https://github.com/Niko1221/Strata/pull/6454) (Monitor and free memory), [#6451](https://github.com/Niko1221/Strata/pull/6451) (Swift's `--ple-gguf`) and [#6452](https://github.com/Niko1221/Strata/pull/6452) (CPU picture reader). Every file is as the scripts wrote it, except that local paths
 are replaced by placeholders: `<models>` (the model's folder), `<pack>`, `<mtp>`, `<engine:NAME>` (an engine
 package from the table below), `<checkout:NAME>` (a Strata checkout), `<parity-build>`, `<work>`, `<evidence>`, `~`.
 `*.bin` files are float32 logit dumps, copied unchanged.
